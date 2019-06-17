@@ -1,3 +1,20 @@
 .App {
   text-align: center;
 }
+
+.nav {
+  height: 60px;
+  background-color: white;
+}
+
+.nav ul {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.nav ul li {
+  list-style: none;
+  margin-top: 20px;
+}
+
