@@ -33,6 +33,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className='nav'>
         <ul>
           <li>
             <NavLink exact to="/">Home</NavLink>
@@ -44,6 +45,7 @@ class App extends Component {
             <NavLink to="/smurf-form">Add Smurfs</NavLink>
           </li>
         </ul>
+        </div>
         <Route path="/" render={props => <HomePage {...props} />} />
         <Route path="/smurfs" render={props => <Smurfs {...props} smurfs={this.state.smurfs} />} />
         <Route path="/smurf-form" render={ props => <SmurfForm { ...props } addSmurf={this.addSmurf} /> } />

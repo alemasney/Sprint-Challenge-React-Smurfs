@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomePage = () => {
     return (
-        <h1>Welcome to the Smurf Village</h1>
+        <h1>Smurf Village</h1>
     )
 }
 
